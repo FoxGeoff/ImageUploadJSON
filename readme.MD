@@ -10,5 +10,15 @@
 * https://docs.microsoft.com/en-us/aspnet/core/mvc/models/file-uploads?view=aspnetcore-2.2
 * https://stackoverflow.com/questions/21325661/convert-image-path-to-base64-string
 ## REF: https://www.mikesdotnetting.com/article/259/asp-net-mvc-5-with-ef-6-working-with-files
+* https://www.base64-image.de/
 
 ***
+## Check: Add Nuget Packages
+```
+<ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.1.4" />
+  </ItemGroup>
+  ```
